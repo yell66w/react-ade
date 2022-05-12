@@ -1,6 +1,6 @@
 import keys from "../constants/keys";
 import { useCalculator } from "../context/CalculatorContext";
-import Key from "./Key";
+import Key from "../stateless/Key";
 
 const KeyContainer = () => {
   const { handleDigitFn, handleOperatorFn, handleEqualsFn, handleFnKeys } =
